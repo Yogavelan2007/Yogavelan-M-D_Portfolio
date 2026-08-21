@@ -1,4 +1,4 @@
-# Yogavelan M. D. — VLSI & Embedded Systems Portfolio
+# Yogavelan M D — VLSI & Embedded Systems Portfolio
 
 > A responsive portfolio website for **Yogavelan M. D.**, focused on VLSI design, embedded systems, FPGA development, AI-driven hardware, and practical electronics engineering.
 
