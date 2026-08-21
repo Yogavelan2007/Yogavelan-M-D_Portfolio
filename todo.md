@@ -1,0 +1,15 @@
+- [x] Remove the secondary “Circuit / PCB” hero label while retaining the Electronics label.
+- [x] Trigger coding-profile counters once when the coding section first becomes visible and preserve the final values afterward.
+- [x] Verify every displayed coding statistic animates smoothly from zero exactly once when the coding section enters view, while preserving the final suffix.
+- [x] Store coding statistics as numeric data with explicit suffix metadata, and render the one-time counters exclusively from those stored values.
+- [x] Package the latest project for VS Code with every image in client/public/images and all references converted to local paths.
+- [x] Remove the full-height left-side signal spine, circular nodes, and related scroll-progress decoration.
+- [x] Package the latest cleaned portfolio revision for VS Code with all image assets stored locally.
+- [x] Redesign only the Coding & Problem Solving section with a distinctive engineering-oriented visual treatment and preserved data-driven counters.
+- [x] Restore the Coding & Problem Solving section to the prior compact platform-row format.
+- [x] Add a Resume button beside the Open Channel action in the hero.
+- [x] Inspect and correct the EmailJS contact-form integration, documenting any credentials required to activate delivery.
+- [x] Connect the Resume button to the provided Google Drive file.
+- [x] Configure the supplied EmailJS service, template, and public key for the contact form.
+- [x] Make the Hero and contact-section Email actions reliably open a browser-based email draft for the portfolio email address.
+- [ ] Package the latest Gmail-email-action portfolio version for VS Code with all images included locally.
