@@ -28,27 +28,6 @@ This repository contains a modern React portfolio built to present engineering e
 | EmailJS | Client-side contact-form delivery. |
 | Lucide React | Interface icons. |
 
-## Run Locally
-
-### Prerequisites
-
-Install [Node.js](https://nodejs.org/) and pnpm. If pnpm is not available, run:
-
-```powershell
-corepack enable
-corepack prepare pnpm@10.4.1 --activate
-```
-
-### Installation
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
-pnpm install
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Available Commands
 
