@@ -30,6 +30,8 @@ export async function sendContactMessage(payload: ContactPayload) {
       reply_to: payload.email,
       subject: payload.subject,
       message: payload.message,
+
+      // Added visitor fields for the EmailJS template
       visitor_name: payload.name,
       visitor_email: payload.email,
       email_subject: payload.subject,
