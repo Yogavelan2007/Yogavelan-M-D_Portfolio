@@ -16,6 +16,11 @@ export type ContactPayload = {
 };
 
 export async function sendContactMessage(payload: ContactPayload) {
+  const submittedAt = new Intl.DateTimeFormat("en-IN", {
+    dateStyle: "medium",
+    timeStyle: "short",
+  }).format(new Date());
+
   return emailjs.send(
     emailjsConfig.serviceId,
     emailjsConfig.templateId,
@@ -25,6 +30,12 @@ export async function sendContactMessage(payload: ContactPayload) {
       reply_to: payload.email,
       subject: payload.subject,
       message: payload.message,
+      visitor_name: payload.name,
+      visitor_email: payload.email,
+      email_subject: payload.subject,
+      visitor_message: payload.message,
+      submitted_at: submittedAt,
+      portfolio_name: "Yogavelan M. D. Portfolio",
     },
     { publicKey: emailjsConfig.publicKey },
   );
