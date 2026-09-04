@@ -52,7 +52,7 @@ export const experiences = [
   {
     role: "VLSI Design Intern",
     company: "Maven Silicon Pvt. Ltd.",
-    period: "2026",
+    period: "May 2026 – June 2026",
     location: "Bangalore, India",
     description:
       "Completed a 6-week VLSI Design internship with hands-on experience in RTL Design, Verilog HDL, ASIC Design Flow, and Functional Verification.",
