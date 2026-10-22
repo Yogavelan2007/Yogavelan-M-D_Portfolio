@@ -9,7 +9,7 @@ export type Project = {
   technologies: string[];
   github?: string;
   image?: string;
-  visual: "pill" | "noc" | "traffic" | "bridge" | "sentinel" | "synopsys";
+  visual: "pill" | "noc" | "traffic" | "bridge" | "sentinel" | "synopsys" | "currency";
 };
 
 export const navItems = [
@@ -152,6 +152,33 @@ export const projects: Project[] = [
     image: "/images/yogavelan-synopsys-design.jpg",
     visual: "synopsys",
   },
+    {
+    id: "arm-counterfeit-currency-detection",
+    number: "07",
+    title: "ARM-Based Real-Time Counterfeit Currency Detection System",
+    category: "Embedded Systems · ARM · Sensor Interface",
+    description: [
+      "Developed an STM32-based currency screening prototype using the STM32F411CEU6 microcontroller, TCS34725 colour sensor, IR sensor, and RGB LEDs.",
+      "The firmware reads sensor values, calculates normalized RGB colour ratios, compares them with configurable reference values, and indicates the comparison result through RGB LEDs. The firmware builds successfully and has been flashed to the development board.",
+      "This project is a reference-colour-matching prototype for experimental screening. It should not be interpreted as a proven currency authentication system or as a system with guaranteed detection accuracy.",
+    ],
+    technologies: [
+      "STM32F411CEU6",
+      "Embedded C",
+      "STM32 HAL",
+      "STM32CubeIDE",
+      "TCS34725",
+      "IR Sensor",
+      "RGB LEDs",
+      "I2C",
+    ],
+    github: "https://github.com/Yogavelan2007/ARM-Based-Counterfeit-Currency-Detection",
+    visual: "currency",
+    image: "/images/arm-counterfeit-currency-detection-lm393.png",
+
+
+  },
+
 ];
 
 export const skillGroups = [

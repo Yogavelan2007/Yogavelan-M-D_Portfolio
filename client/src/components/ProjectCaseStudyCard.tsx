@@ -171,6 +171,47 @@ function EngineeringDomainGraphic({ visual }: { visual: Project["visual"] }) {
           </div>
         </div>
       );
+    case "currency":
+      // ARM STM32 Sensor-Based Reference Colour Matching Prototype
+      return (
+        <div className="relative size-full overflow-hidden bg-gradient-to-br from-[#151108] via-[#0b0a06] to-[#050504] p-4 flex flex-col justify-between">
+          <div className="flex items-center justify-between text-[10px] font-mono text-[#f4b43e]">
+            <span className="flex items-center gap-1.5">
+              <Cpu className="size-3" />
+              STM32F411CEU6
+            </span>
+            <span>EMBEDDED C</span>
+          </div>
+
+          <div className="my-auto flex items-center justify-center gap-2 font-mono text-[9px] sm:gap-3">
+            <div className="rounded-lg border border-[#f4b43e]/60 bg-[#f4b43e]/10 px-2 py-3 text-center text-[#f4b43e] sm:px-3">
+              <div className="text-[8px] text-white/50">MCU</div>
+              <div className="mt-1 font-bold">STM32</div>
+            </div>
+
+            <div className="flex flex-col items-center gap-1 text-white/50">
+              <span className="text-[#f4b43e]">I2C</span>
+              <span>➜</span>
+            </div>
+
+            <div className="rounded-lg border border-[#42e8e0]/50 bg-[#42e8e0]/10 px-2 py-3 text-center text-[#42e8e0] sm:px-3">
+              <div className="text-[8px] text-white/50">SENSOR</div>
+              <div className="mt-1 font-bold">TCS34725</div>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-between gap-3 text-[9px] font-mono text-white/50">
+            <span>RGB RATIO MATCHING</span>
+            <span className="flex items-center gap-1.5">
+              <span className="size-2 rounded-full bg-red-400 shadow-[0_0_8px_#f87171]" />
+              <span className="size-2 rounded-full bg-green-400 shadow-[0_0_8px_#4ade80]" />
+              <span className="size-2 rounded-full bg-blue-400 shadow-[0_0_8px_#60a5fa]" />
+              RGB LED OUTPUT
+            </span>
+          </div>
+        </div>
+      );
+
 
     default:
       return null;
