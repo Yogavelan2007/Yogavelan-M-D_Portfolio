@@ -326,7 +326,7 @@ export default function HeroEnvironment({
             </button>
 
             <a
-              href="https://drive.google.com/file/d/102TKMKQlTP-AOjBjeE9q3b6Bm9hWM0KG/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1tISPOmECbqdeNjuTpIjmpJ3Gm-0bve5j/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 rounded-xl border border-foreground/15 bg-foreground/[0.04] px-5 py-4 text-sm font-bold text-foreground transition duration-300 hover:border-signal hover:text-signal"
